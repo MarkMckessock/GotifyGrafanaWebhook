@@ -5,6 +5,7 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/gin-gonic/gin"
 	"github.com/gotify/plugin-api"
 )
 
