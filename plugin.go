@@ -35,7 +35,8 @@ func (c *Plugin) RegisterWebhook(basePath string, mux *gin.RouterGroup) {
 }
 
 func (c *Plugin) GetDisplay(location *url.URL) string {
-	baseLocation := &url.URL{
+	// baseLocation := &url.URL{
+	loc := &url.URL{
 		Path: c.basePath,
 	}
 	if location != nil {
